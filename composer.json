@@ -1,0 +1,25 @@
+{
+    "name": "josiah/eway-rapid-bundle",
+    "description": "Bundle which integrates the eWAY Rapid API Clients Symfony 2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah",
+            "email": "josiah@jjs.id.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "josiah/eway-rapid": "~0.1"
+    },
+    "autoload": {
+        "psr-0": { "Eway\\Bundle\\RapidBundle": "" }
+    },
+    "target-dir": "Eway/Bundle/RapidBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
